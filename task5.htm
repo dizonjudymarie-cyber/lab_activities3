@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - MyShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Shipping Information</h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Shipping Address</legend>
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    <br><br>
+
+                    <label for="street">Country Address:</label>
+                    <input type="text" id="street" name="street" required>
+                    <br><br>
+                    
+                    <label for="street">Region Address:</label>
+                    <input type="text" id="street" name="street" required>
+                    <br><br>
+
+                    <label for="street">Municipality Address:</label>
+                    <input type="text" id="street" name="street" required>
+                    <br><br>
+
+                    <label for="street">Barangay Address:</label>
+                    <input type="text" id="street" name="street" required>
+                    <br><br>
+
+                    <label for="street">Street Address:</label>
+                    <input type="text" id="street" name="street" required>
+                    <br><br>
+
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" name="zipcode" required>
+                </fieldset>
+
+                <br>
+                <section>
+                    <h2>Payment Method</h2>
+
+                    <label>
+                        <input type="radio" name="payment" value="credit-card" required>
+                        Credit Card
+                    </label>
+                    <br>
+
+                    <label>
+                        <input type="radio" name="payment" value="paypal">
+                        PayPal
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="payment" value="Cash on delivery">
+                        Cash on delivery
+                    </label>
+
+                </section>
+
+            </form>
+        </section>
+
+    </main>
+    <aside>
+        <h2>Order Summary</h2>
+        <p>Subtotal: Php. 99.99</p>
+        <p>Shipping: Php50.00</p>
+        <p><strong>Total: Php. 149.99</strong></p>
+        <button type="submit">Place Order</button>
+    </aside>
+
+</body>
+</html>
